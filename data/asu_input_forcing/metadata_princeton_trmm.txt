@@ -1,0 +1,46 @@
+Unit and data informatoon for forcing file "princeton_trmm_-2.625_-60.125.dat"
+Period: 01/01/1998-00 to 12/31/2008-21
+Temporal Resolution: 3 hourly
+
+name       = 'wind'
+title      = '3-hourly 10m windspeed'
+long_name  = 'Windspeed'
+units      = 'm s-1'
+Dataset    = Princeton
+
+name       = 'dswrf'
+title      = '3-hourly bias corrected downward shortwave radiation'
+long_name  = 'Downward shortwave radiation'
+units      = 'W m-2'
+Dataset    = Princeton
+
+name       = 'dlwrf'
+title      = '3-hourly bias corrected downward longwave radiation'
+long_name  = 'Downward longwave radiation'
+units      = 'W m-2'
+Dataset    = Princeton
+                    
+name       = 'tas'
+title      = '3-hourly bias corrected air temperature'
+long_name  = 'Air temperature'
+units      = 'K'
+Dataset    = Princeton
+
+name       = 'shum'
+title      = '3-hourly specific humidity'
+long_name  = 'Specific humidity'
+units      = 'kg kg-1'
+Dataset    = Princeton
+
+name       = 'pres'
+title      = '3-hourly surface pressure'
+long_name  = 'Surface pressure'
+units      = 'Pa'
+Dataset    = Princeton
+
+name       = 'ppt'                       
+units      = 'mm/hr'
+longname   = '3-hour precipitation of this month'
+FillValue = -9999.9004
+Dataset    = TRMM
+Version    = TRMM/TMPA 3B42 TRMM and Others Rainfall Estimate Data V7

@@ -1,0 +1,45 @@
+Unit and data informatoon for forcing file "princeton_k34_-2.625_-60.125.dat"
+Period: 01/01/2002-00 to 12/31/2005-21
+Temporal Resolution: 3-hourly
+
+name       = 'wind'
+title      = '3-hourly 10m windspeed'
+long_name  = 'Windspeed'
+units      = 'm s-1'
+Dataset    = Princeton
+
+name       = 'dswrf'
+title      = '3-hourly bias corrected downward shortwave radiation'
+long_name  = 'Downward shortwave radiation'
+units      = 'W m-2'
+Dataset    = Princeton
+
+name       = 'dlwrf'
+title      = '3-hourly bias corrected downward longwave radiation'
+long_name  = 'Downward longwave radiation'
+units      = 'W m-2'
+Dataset    = Princeton
+                    
+name       = 'tas'
+title      = '3-hourly bias corrected air temperature'
+long_name  = 'Air temperature'
+units      = 'K'
+Dataset    = Princeton
+
+name       = 'shum'
+title      = '3-hourly specific humidity'
+long_name  = 'Specific humidity'
+units      = 'kg kg-1'
+Dataset    = Princeton
+
+name       = 'pres'
+title      = '3-hourly surface pressure'
+long_name  = 'Surface pressure'
+units      = 'Pa'
+Dataset    = Princeton
+                       
+name       = 'prcp'
+units      = 'mm/s'
+source     = 'Original flux data is at hourly time step, current data represens 3 hour average precipitation rate in mm/s'
+FillValue  = 'All NoData Value and missing value has been replaced with 0'
+Dataset    = K34 flux tower, hourly 

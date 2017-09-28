@@ -1,0 +1,579 @@
+Regions list:
+-------------
+<ParameterList name="regions">
+  <ParameterList name="soil 1 layer 1">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="0" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 1 layer 2">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="1" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 1 layer 3">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="2" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 1 layer 4">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="3" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 2 layer 1">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="4" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 2 layer 2">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="5" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 2 layer 3">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="6" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 2 layer 4">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="7" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 3 layer 1">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="8" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 3 layer 2">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="9" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 3 layer 3">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="10" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 3 layer 4">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="11" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 4 layer 1">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="12" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 4 layer 2">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="13" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 4 layer 3">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="14" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="soil 4 layer 4">
+    <ParameterList name="region: labeled set" type="ParameterList">
+      <Parameter name="label" type="string" value="15" />
+      <Parameter name="file" type="string" value="mesh_fsets.exo" />
+      <Parameter name="format" type="string" value="Exodus II" />
+      <Parameter name="entity" type="string" value="cell" />
+    </ParameterList>
+  </ParameterList>
+</ParameterList>
+
+
+
+
+Porosity list:
+-------------
+<ParameterList name="base_porosity">
+  <Parameter name="field evaluator type" type="string" value="independent variable" />
+  <ParameterList name="function">
+    <ParameterList name="soil 1 layer 1">
+      <Parameter name="region" type="string" value="soil 1 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.34" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 2">
+      <Parameter name="region" type="string" value="soil 1 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.34" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 3">
+      <Parameter name="region" type="string" value="soil 1 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.56" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 4">
+      <Parameter name="region" type="string" value="soil 1 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.56" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 1">
+      <Parameter name="region" type="string" value="soil 2 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.32" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 2">
+      <Parameter name="region" type="string" value="soil 2 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.36" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 3">
+      <Parameter name="region" type="string" value="soil 2 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.43" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 4">
+      <Parameter name="region" type="string" value="soil 2 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.43" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 1">
+      <Parameter name="region" type="string" value="soil 3 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.5" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 2">
+      <Parameter name="region" type="string" value="soil 3 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.48" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 3">
+      <Parameter name="region" type="string" value="soil 3 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.48" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 4">
+      <Parameter name="region" type="string" value="soil 3 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.48" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 1">
+      <Parameter name="region" type="string" value="soil 4 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.62" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 2">
+      <Parameter name="region" type="string" value="soil 4 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.6" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 3">
+      <Parameter name="region" type="string" value="soil 4 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.6" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 4">
+      <Parameter name="region" type="string" value="soil 4 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="0.6" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+  </ParameterList>
+</ParameterList>
+
+
+
+Permeability list:
+-------------
+<ParameterList name="permeability">
+  <Parameter name="field evaluator type" type="string" value="independent variable" />
+  <ParameterList name="function">
+    <ParameterList name="soil 1 layer 1">
+      <Parameter name="region" type="string" value="soil 1 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="4.32596960322e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 2">
+      <Parameter name="region" type="string" value="soil 1 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="4.32596960322e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 3">
+      <Parameter name="region" type="string" value="soil 1 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="4.32596960322e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 1 layer 4">
+      <Parameter name="region" type="string" value="soil 1 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="4.32596960322e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 1">
+      <Parameter name="region" type="string" value="soil 2 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="3.98865525313e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 2">
+      <Parameter name="region" type="string" value="soil 2 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="3.98865525313e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 3">
+      <Parameter name="region" type="string" value="soil 2 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="3.98865525313e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 2 layer 4">
+      <Parameter name="region" type="string" value="soil 2 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="3.98865525313e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 1">
+      <Parameter name="region" type="string" value="soil 3 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.07453746575e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 2">
+      <Parameter name="region" type="string" value="soil 3 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.07453746575e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 3">
+      <Parameter name="region" type="string" value="soil 3 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.07453746575e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 3 layer 4">
+      <Parameter name="region" type="string" value="soil 3 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.07453746575e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 1">
+      <Parameter name="region" type="string" value="soil 4 layer 1" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.64484214013e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 2">
+      <Parameter name="region" type="string" value="soil 4 layer 2" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.64484214013e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 3">
+      <Parameter name="region" type="string" value="soil 4 layer 3" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.64484214013e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+    <ParameterList name="soil 4 layer 4">
+      <Parameter name="region" type="string" value="soil 4 layer 4" />
+      <Parameter name="entity" type="string" value="cell" />
+      <ParameterList name="function">
+        <ParameterList name="function-constant" type="ParameterList">
+          <Parameter name="value" type="double" value="1.64484214013e-11" />
+        </ParameterList>
+      </ParameterList>
+    </ParameterList>
+  </ParameterList>
+</ParameterList>
+
+
+
+WRM list:
+-------------
+<ParameterList name="WRM parameters">
+  <ParameterList name="soil 1 layer 1" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 1 layer 1" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.160809111748" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 1 layer 2" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 1 layer 2" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.173638381497" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 1 layer 3" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 1 layer 3" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.102895034164" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 1 layer 4" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 1 layer 4" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.145328891145" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 2 layer 1" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 2 layer 1" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.107197284513" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 2 layer 2" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 2 layer 2" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0524701282284" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 2 layer 3" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 2 layer 3" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0190507932301" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 2 layer 4" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 2 layer 4" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0604305747982" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 3 layer 1" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 3 layer 1" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.150010232131" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 3 layer 2" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 3 layer 2" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.188807678822" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 3 layer 3" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 3 layer 3" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0365896798871" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 3 layer 4" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 3 layer 4" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.114413917109" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 4 layer 1" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 4 layer 1" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0310698933064" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 4 layer 2" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 4 layer 2" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0684711069106" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 4 layer 3" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 4 layer 3" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.0164136836781" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+  <ParameterList name="soil 4 layer 4" type="ParameterList">
+    <Parameter name="region" type="string" value="soil 4 layer 4" />
+    <Parameter name="WRM type" type="string" value="van Genuchten" />
+    <Parameter name="van Genuchten alpha" type="double" value="0.0006" />
+    <Parameter name="van Genuchten m" type="double" value="0.2" />
+    <Parameter name="residual saturation" type="double" value="0.175447771343" />
+    <Parameter name="smoothing interval width" type="double" value="100.0" />
+  </ParameterList>
+</ParameterList>
+
+
+
