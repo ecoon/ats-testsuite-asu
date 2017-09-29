@@ -1,0 +1,17 @@
+#!/bin/bash
+#PBS -A ccsi
+#PBS -W group_list=cades-ccsi
+#PBS -N asu-spinup-1
+#PBS -j oe
+#PBS -o /home/uec/uec/asu/ats-testsuite-asu/spinup-1/os0/out.log
+#PBS -l qos=std
+#PBS -q batch
+#PBS -l walltime=14:00:00,nodes=1:ppn=32
+
+cd $PBS_O_WORKDIR
+cd /home/uec/uec/asu/ats-testsuite-asu/spinup-1/os0
+module load ats/dev/Debug
+date
+module list
+mpirun -n 32 ats --xml_file=../steadystate_os.xml
+date

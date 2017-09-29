@@ -9,7 +9,7 @@
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="mesh type" type="string" value="read mesh file" />
       <ParameterList name="read mesh file parameters" type="ParameterList">
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
       </ParameterList>
     </ParameterList>
@@ -37,7 +37,7 @@
     <ParameterList name="soil 1 layer 1" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -45,7 +45,7 @@
     <ParameterList name="soil 1 layer 2" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -53,7 +53,7 @@
     <ParameterList name="soil 1 layer 3" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="3" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -61,7 +61,7 @@
     <ParameterList name="soil 1 layer 4" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="4" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -69,7 +69,7 @@
     <ParameterList name="soil 2 layer 1" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="5" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -77,7 +77,7 @@
     <ParameterList name="soil 2 layer 2" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="6" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -85,7 +85,7 @@
     <ParameterList name="soil 2 layer 3" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="7" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -93,7 +93,7 @@
     <ParameterList name="soil 2 layer 4" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="8" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -101,7 +101,7 @@
     <ParameterList name="soil 3 layer 1" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="9" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -109,7 +109,7 @@
     <ParameterList name="soil 3 layer 2" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="10" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -117,7 +117,7 @@
     <ParameterList name="soil 3 layer 3" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="11" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -125,7 +125,7 @@
     <ParameterList name="soil 3 layer 4" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="12" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -133,7 +133,7 @@
     <ParameterList name="soil 4 layer 1" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="13" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -141,7 +141,7 @@
     <ParameterList name="soil 4 layer 2" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="14" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -149,7 +149,7 @@
     <ParameterList name="soil 4 layer 3" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="15" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -157,7 +157,7 @@
     <ParameterList name="soil 4 layer 4" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="16" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Cell" />
       </ParameterList>
@@ -171,7 +171,7 @@
     <ParameterList name="surface" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="2" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -179,7 +179,7 @@
     <ParameterList name="bottom" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="1" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -187,7 +187,7 @@
     <ParameterList name="east" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="3" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -195,7 +195,7 @@
     <ParameterList name="north" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="4" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -203,7 +203,7 @@
     <ParameterList name="west" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="5" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -211,7 +211,7 @@
     <ParameterList name="south" type="ParameterList">
       <ParameterList name="region: labeled set" type="ParameterList">
         <Parameter name="label" type="string" value="6" />
-        <Parameter name="file" type="string" value="../../mesh/2/mesh_fs_flip.par" />
+        <Parameter name="file" type="string" value="../../mesh/32/mesh_fs_flip.par" />
         <Parameter name="format" type="string" value="Exodus II" />
         <Parameter name="entity" type="string" value="Face" />
       </ParameterList>
@@ -223,7 +223,7 @@
     <Parameter name="start time units" type="string" value="s" />
     <Parameter name="end time" type="double" value="10.0" />
     <Parameter name="end time units" type="string" value="d" />
-    <Parameter name="end cycle" type="int" value="100000" />
+    <Parameter name="end cycle" type="int" value="10000" />
     <Parameter name="wallclock duration [hrs]" type="double" value="13.4" />
     <ParameterList name="PK tree" type="ParameterList">
       <ParameterList name="Top level MPC" type="ParameterList">
@@ -247,20 +247,20 @@
   <ParameterList name="visualization">
     <ParameterList name="domain" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,864000.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
     <ParameterList name="surface" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_surface" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,864000.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
     <ParameterList name="surface_star" type="ParameterList">
       <Parameter name="file name base" type="string" value="visdump_surface_star" />
-      <Parameter name="times start period stop" type="Array(double)" value="{0.0,864000.0,-1.0}" />
+      <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
     </ParameterList>
   </ParameterList>
 
   <ParameterList name="checkpoint" type="ParameterList">
-    <Parameter name="times start period stop" type="Array(double)" value="{0.0,8640000.0,-1.0}" />
+    <Parameter name="times start period stop" type="Array(double)" value="{0.0,86400.0,-1.0}" />
   </ParameterList>
 
   <ParameterList name="observations">
@@ -272,7 +272,7 @@
       <Parameter name="location name" type="string" value="cell"/>
       <Parameter name="write interval" type="int" value="1"/>
       <Parameter name="observation output filename" type="string" value="subsurface_water_content.dat"/>
-      <Parameter name="cycles start period stop" type="Array(int)" value="{0,20,-1}"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0,3600,-1}"/>
     </ParameterList>
     <ParameterList name="surface water">
       <Parameter name="variable" type="string" value="surface-water_content"/>
@@ -282,7 +282,7 @@
       <Parameter name="location name" type="string" value="cell"/>
       <Parameter name="write interval" type="int" value="1"/>
       <Parameter name="observation output filename" type="string" value="surface_water_content.dat"/>
-      <Parameter name="cycles start period stop" type="Array(int)" value="{0,20,-1}"/>
+      <Parameter name="times start period stop" type="Array(double)" value="{0,3600,-1}"/>
     </ParameterList>
   </ParameterList>
 
@@ -307,7 +307,7 @@
         <Parameter name="damp and cap the water spurt" type="bool" value="true" />
         <Parameter name="cap over atmospheric" type="double" value="0.000001" />
         <ParameterList name="verbose object" type="ParameterList">
-          <Parameter name="verbosity level" type="string" value="extreme" />
+          <Parameter name="verbosity level" type="string" value="low" />
         </ParameterList>
       </ParameterList>
 
@@ -377,7 +377,6 @@
       <Parameter name="relative permeability method" type="string" value="upwind with Darcy flux" />
       <Parameter name="permeability rescaling" type="double" value="10000000.0" />
 
-      <Parameter name="debug cells" type="Array(int)" value="{718146}"/>
       <ParameterList name="verbose object" type="ParameterList">
         <Parameter name="verbosity level" type="string" value="high" />
       </ParameterList>
@@ -394,7 +393,14 @@
       </ParameterList>
 
       <ParameterList name="initial condition" type="ParameterList">
-        <Parameter name="restart file" type="string" value="../../spinup-real-0/run0/checkpoint00001.h5" />
+        <Parameter name="initialize faces from cells" type="bool" value="true" />
+        <ParameterList name="initialize from 1D column" type="ParameterList">
+          <Parameter name="file" type="string" value="../../column-0/run0/column_data.h5" />
+          <Parameter name="z header" type="string" value="/z" />
+          <Parameter name="f header" type="string" value="/pressure" />
+          <Parameter name="coordinate orientation" type="string" value="depth" />
+          <Parameter name="surface sideset" type="string" value="surface" />
+        </ParameterList>
       </ParameterList>
 
       <ParameterList name="water retention evaluator" type="ParameterList">
@@ -542,7 +548,6 @@
       <Parameter name="layer name" type="string" value="surface" />
       <Parameter name="initial time step" type="double" value="60.0" />
 
-      <Parameter name="debug cells" type="Array(int)" value="{100900}"/>
       <ParameterList name="verbose object" type="ParameterList">
         <Parameter name="verbosity level" type="string" value="high" />
       </ParameterList>
@@ -559,7 +564,6 @@
       <Parameter name="allow no negative ponded depths" type="bool" value="true" />
       <Parameter name="initial time step" type="double" value="10.0" />
 
-      <Parameter name="debug cells" type="Array(int)" value="{100900}"/>
       <ParameterList name="verbose object" type="ParameterList">
         <Parameter name="verbosity level" type="string" value="high" />
       </ParameterList>
