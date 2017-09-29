@@ -1,0 +1,78 @@
+Thu Sep 28 12:43:40 EDT 2017
+Currently Loaded Modulefiles:
+  1) cmake/3.6.1
+  2) gcc/5.3.0
+  3) openmpi/1.10.3
+  4) ats/dev/Debug/gcc-5.3.0_openmpi-1.10.3
+Importing mesh from ExodusII file...Done
+Building classification information....Done
+Partitioning mesh into 32 parts...
+MESH_PartitionWithZoltan: Using partitioning method RCB for ZOLTAN
+
+Received mesh on rank 6
+Received mesh on rank 7
+Received mesh on rank 12
+Received mesh on rank 13
+Received mesh on rank 1
+Received mesh on rank 2
+Received mesh on rank 3
+Received mesh on rank 4
+Received mesh on rank 5
+Received mesh on rank 8
+Received mesh on rank 9
+Received mesh on rank 10
+Received mesh on rank 11
+Received mesh on rank 14
+Received mesh on rank 15
+Received mesh on rank 16
+Received mesh on rank 17
+Received mesh on rank 18
+Received mesh on rank 19
+Received mesh on rank 20
+Received mesh on rank 21
+Received mesh on rank 22
+Received mesh on rank 23
+Received mesh on rank 24
+Received mesh on rank 25
+Received mesh on rank 26
+Received mesh on rank 27
+Received mesh on rank 28
+Received mesh on rank 29
+Received mesh on rank 30
+Received mesh on rank 31
+Finished partioning and sending on rank 0
+Elapsed time after mesh distribution on processor 27 is 5.115142 s
+Elapsed time after mesh distribution on processor 28 is 5.115146 s
+Elapsed time after mesh distribution on processor 29 is 5.115142 s
+Elapsed time after mesh distribution on processor 0 is 5.115179 s
+Elapsed time after mesh distribution on processor 31 is 5.115128 s
+Elapsed time after mesh distribution on processor 17 is 5.115167 s
+Elapsed time after mesh distribution on processor 25 is 5.115154 s
+Elapsed time after mesh distribution on processor 4 is 5.115169 s
+Elapsed time after mesh distribution on processor 6 is 5.115153 s
+Elapsed time after mesh distribution on processor 5 is 5.115172 s
+Elapsed time after mesh distribution on processor 8 is 5.115184 s
+Elapsed time after mesh distribution on processor 9 is 5.115159 s
+Elapsed time after mesh distribution on processor 10 is 5.115148 s
+Elapsed time after mesh distribution on processor 7 is 5.115146 s
+Elapsed time after mesh distribution on processor 12 is 5.115154 s
+Elapsed time after mesh distribution on processor 11 is 5.115148 s
+Elapsed time after mesh distribution on processor 14 is 5.115138 s
+Elapsed time after mesh distribution on processor 16 is 5.115175 s
+Elapsed time after mesh distribution on processor 18 is 5.115162 s
+Elapsed time after mesh distribution on processor 19 is 5.115155 s
+Elapsed time after mesh distribution on processor 20 is 5.115162 s
+Elapsed time after mesh distribution on processor 21 is 5.115155 s
+Elapsed time after mesh distribution on processor 22 is 5.115147 s
+Elapsed time after mesh distribution on processor 23 is 5.115141 s
+Elapsed time after mesh distribution on processor 24 is 5.115161 s
+Elapsed time after mesh distribution on processor 26 is 5.115143 s
+Elapsed time after mesh distribution on processor 30 is 5.115129 s
+Elapsed time after mesh distribution on processor 13 is 5.115147 s
+Elapsed time after mesh distribution on processor 1 is 5.115172 s
+Elapsed time after mesh distribution on processor 2 is 5.115168 s
+Elapsed time after mesh distribution on processor 3 is 5.115171 s
+Elapsed time after mesh distribution on processor 15 is 5.115132 s
+done
+Exporting mesh to ExodusII/NemesisI format...Done
+Read 73750 regionsThu Sep 28 12:43:48 EDT 2017
